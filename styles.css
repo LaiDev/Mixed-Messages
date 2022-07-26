@@ -1,0 +1,41 @@
+body {
+    background: #b7edff;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    background: #060650;
+    border-radius: 25px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 550px;
+    width: 500px;
+    margin: 100px auto;
+}
+
+button {
+    width: 250px;
+    height: 30px;
+
+    font-size: 15px;
+    background-color: #b7edff;
+
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: -10px 10px black;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
