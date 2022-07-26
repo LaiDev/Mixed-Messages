@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     background: #b7edff;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
@@ -20,12 +22,15 @@ body {
     max-width: 500px;
 
     margin: 100px auto;
+    gap: 20px;
 }
 
 h1 {
     font-size: 2rem;
     text-align: center;
     padding: 20px;
+    width: auto;
+    height: 150px;
 }
 
 button {
@@ -39,6 +44,8 @@ button {
     border-radius: 8px;
     border-style: none;
     box-shadow: -10px 10px black;
+
+
 }
 
 button:hover {
