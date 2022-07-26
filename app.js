@@ -36,7 +36,7 @@ const combineMessage = () => {
 
 //Each time the user clicks the button, a new message will display on the screen
 
-let mesageButton = document.getElementById("generateMessage");
+let mesageButton = document.getElementById("generateMessageBtn");
 
 mesageButton.onclick = () => {
 
