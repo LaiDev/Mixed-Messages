@@ -2,6 +2,7 @@ body {
     background: #b7edff;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -14,16 +15,25 @@ body {
     flex-direction: column;
     justify-content: center;
 
-    height: 550px;
-    width: 500px;
+    min-height: 550px;
+
+    max-width: 500px;
+
     margin: 100px auto;
 }
 
-button {
-    width: 250px;
-    height: 30px;
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+}
 
-    font-size: 15px;
+button {
+    min-width: 250px;
+    min-height: 30px;
+    font-size: 1.25rem;
+
+
     background-color: #b7edff;
 
     border-radius: 8px;
@@ -35,7 +45,20 @@ button:hover {
     background-color: #ffffff;
 }
 
-h1 {
-    text-align: center;
-    padding: 20px;
+
+@media (max-width: 480px) {
+
+    .container {
+
+        max-width: 400px;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    button {
+        font-size: 1rem;
+        min-width: 200px;
+    }
 }
