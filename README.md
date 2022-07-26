@@ -1,6 +1,6 @@
 # Mixed Messages
 
-View the project here : [Mixed Messages](https://laidev.github.io/Mixed-Messages/)
+View the live project here : [Mixed Messages](https://laidev.github.io/Mixed-Messages/)
 
 ## Overview
 
