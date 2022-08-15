@@ -1,3 +1,4 @@
+
 //Each function holds an array of multiple strings. When called, the randomIndex will randomly select and return a value from the array
 
 const who = () => {
@@ -25,6 +26,8 @@ const when = () => {
     let randomDate = Math.floor(Math.random() * whenToGo.length);
     return whenToGo[randomDate]
 }
+//randomInfo() takes in a array and will choose a ranom object from that array
+let randomInfo = (array) => { Math.floor(Math.random() * array.length) }
 
 //combineMessages() will combine all of the individual message parts into one complete sentence
 
